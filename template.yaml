@@ -2,7 +2,7 @@ Transform: AWS::Serverless-2016-10-31
 
 Resources:
   LambdaFunction:
-    Type: AWS::Servrless::Function
+    Type: AWS::Serverless::Function
     Properties:
       Runtime: nodejs10.x
       InlineCode: |
